@@ -7,5 +7,6 @@ for ch in filename:
 		continue
 	if(count):
 		ext = ext + ch
-	
-print("Extention of the file is : ",ext)
+
+if(ext=="py"):
+        print("The extension of the file is : 'python'")
